@@ -1,6 +1,17 @@
 # import statements
 from flask import Flask
+from bs4 import BeautifulSoup
+import requests
 
+# tuple containing the websites to scrape
+sites_to_scrape = ('https://www.ambito.com/contenidos/dolar.html', 
+                   'https://www.dolarhoy.com', 
+                   'https://www.cronista.com/MercadosOnline/moneda.html?id=ARSB')
+
+# list to contain the requested webpages
+
+
+# initialize the flask application?
 app = Flask(__name__)
 
 # makes the default route for the api
